@@ -3,7 +3,7 @@ import ChartContent from "./ChartContent"
 
 const ChartSection = () => {
     return (
-        <div className="flex justify-between px-[100px] my-32">
+        <div id="blog" className="flex flex-col md:flex-row justify-between items-center px-4 xl:px-[100px] my-16 md:my-24 xl:my-36">
             <div>
                 <ChartContent />
             </div>

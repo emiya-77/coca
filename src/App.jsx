@@ -1,5 +1,7 @@
+import About from './components/About/About'
 import Banner from './components/Banner/Banner'
 import ChartSection from './components/ChartSection/ChartSection'
+import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import OurService from './components/OurServiceSection/OurService'
 import PackageSection from './components/PackageSection/PackageSection'
@@ -16,6 +18,8 @@ function App() {
       <OurService />
       <SchedulingSection />
       <PackageSection />
+      <About />
+      <Contact />
       <Footer />
     </div>
   )

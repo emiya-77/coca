@@ -1,12 +1,12 @@
 
 const TaskManagementHeader = () => {
     return (
-        <div className="mt-24 mb-10">
-            <h1 className="text-center font-bold text-6xl">
-                Our user-friendly interface allows for <br /> easy management of tasks
+        <div className="mt-16 md:mt-24 mb-16">
+            <h1 className="text-center font-bold text-xl md:text-4xl xl:text-6xl">
+                Our user-friendly interface allows for <br className="hidden md:flex" /> easy management of tasks
             </h1>
-            <p className="text-center text-lg text-gray-500 mt-6">
-                The Simple Solution to Task Management: Our Interface Offers an Easy <br /> and Efficient Way to Manage Your Tasks
+            <p className="text-center text-sm md:text-lg text-gray-500 mt-3 md:mt-6">
+                The Simple Solution to Task Management: Our Interface Offers an Easy <br className="hidden md:flex" /> and Efficient Way to Manage Your Tasks
             </p>
         </div>
     )

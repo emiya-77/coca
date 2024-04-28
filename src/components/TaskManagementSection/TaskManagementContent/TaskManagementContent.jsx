@@ -1,10 +1,10 @@
 
 const TaskManagementContent = () => {
     return (
-        <div className="flex gap-16">
+        <div className="flex flex-col md:flex-row gap-6 md:gap-1 xl:gap-16">
 
             {/* Card 1 */}
-            <div className="w-[370px] border-[1px] px-8 py-5 rounded-lg">
+            <div className="mx-auto w-[90%] md:w-[30%] xl:w-[370px] border-[1px] px-4 py-3 xl:px-8 xl:py-5 rounded-lg">
                 <div className="pb-7">
                     <div className="flex items-center justify-between">
                         <h1 className="font-medium text-lg">Top Clients</h1>
@@ -34,7 +34,7 @@ const TaskManagementContent = () => {
             </div>
 
             {/* Card 2 */}
-            <div className="w-[370px] border-[1px] px-8 py-4 rounded-lg flex flex-col justify-between">
+            <div className="mx-auto w-[90%] md:w-[30%] xl:w-[370px] border-[1px] px-4 py-3 xl:px-8 xl:py-5 rounded-lg flex flex-col justify-between">
                 <div className="pb-7">
                     <div className="flex gap-4 mt-4 items-center pb-7">
                         <div className="w-[71px] h-[71px] rounded-md bg-gray-300">
@@ -58,7 +58,7 @@ const TaskManagementContent = () => {
             </div>
 
             {/* Card 3 */}
-            <div className="w-[370px] border-[1px] px-8 py-4 rounded-lg">
+            <div className="mx-auto w-[90%] md:w-[30%] xl:w-[370px] border-[1px] px-4 py-3 xl:px-8 xl:py-5 rounded-lg">
                 <div className="mt-2">
                     <h1 className="font-medium text-lg mb-3">Task Progress</h1>
                     <img src="Frame 1171277178.png" alt="" />

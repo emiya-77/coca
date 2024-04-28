@@ -3,7 +3,7 @@ import TaskManagementHeader from "./TaskManagementHeader/TaskManagementHeader"
 
 const TaskManagementSection = () => {
     return (
-        <div className="flex flex-col justify-center items-center mb-16">
+        <div id="team" className="flex flex-col justify-center items-center mt-9 mb-16 px-4 md:px-0">
             <div>
                 <TaskManagementHeader />
             </div>

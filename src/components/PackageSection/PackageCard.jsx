@@ -2,7 +2,7 @@ import GreenButton from "../Button/GreenButton"
 
 const PackageCard = ({ title, price, subTitle }) => {
     return (
-        <div className="w-[380px] flex flex-col justify-start items-center py-8 px-4 shadow-2xl rounded-2xl">
+        <div className="w-[300px] md:w-[380px] flex flex-col justify-start items-center py-4 md:py-8 px-4 shadow-lg md:shadow-2xl rounded-2xl">
             <div className="flex flex-col items-center">
                 <p className="py-1 px-3 bg-gray-100 font-medium mb-6 rounded-full inline-block text-xs">{title} plan</p>
                 <h1 className="text-5xl font-bold mb-4">${price}

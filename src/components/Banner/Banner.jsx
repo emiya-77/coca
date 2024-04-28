@@ -4,7 +4,7 @@ import Navbar from "../Navbar/Navbar";
 
 const Banner = () => {
   return (
-    <div className="w-full h-[1000px] px-[100px] py-[27px] bg-gradient-to-br from-[#426AE4] via-[#7190ea] to-[#23F0A9]">
+    <div className="w-full min-h-[1200px] md:min-h-[700px] xl:h-[1000px] px-4 md:px-8 xl:px-[100px] py-[27px] bg-gradient-to-br from-[#426AE4] via-[#7190ea] to-[#23F0A9]">
       <Navbar />
       <HeroSection />
     </div>
