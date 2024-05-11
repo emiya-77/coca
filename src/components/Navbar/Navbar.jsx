@@ -14,7 +14,7 @@ const Navbar = () => {
           <DropDown />
         </div>
       </div>
-      <hr />
+      <div className="h-[2px] w-[96%] bg-[#6793e2] mx-auto"></div>
     </div>
   )
 }

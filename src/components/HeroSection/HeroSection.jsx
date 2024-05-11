@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <div>
       <HeroHeader />
-      <div className="flex flex-col md:flex-row justify-between items-center">
+      <div className="p-2 gap-2 flex flex-col md:flex-row justify-between items-center md:items-start">
         <HeroLeft />
         <HeroCenter />
         <HeroRight />

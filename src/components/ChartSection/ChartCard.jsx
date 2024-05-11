@@ -1,13 +1,22 @@
 import DoughnutChart from "./DoughnutChart"
+import DoughnutJS from "./DoughnutJS"
 
 const ChartCard = () => {
     return (
         <div className="relative">
-            <div className="-z-10 hidden md:flex absolute w-full md:w-[412px] h-[440px] rounded-2xl bg-gradient-to-br from-[#426AE4] via-[#7190ea] to-[#23F0A9] -left-12 -top-12">
+            <div className="z-0 hidden md:flex absolute w-full md:w-[412px] h-[440px] rounded-2xl bg-gradient-to-br from-[#426AE4] via-[#7190ea] to-[#23F0A9] -left-12 -top-12">
             </div>
-            <div className="z-10 bg-white inline-block md:px-14 py-4 rounded-2xl">
-                <div className="mb-6">
-                    <DoughnutChart />
+            <div className="relative z-10 bg-white inline-block md:px-14 py-4 rounded-2xl">
+                <div className="-mb-4 flex flex-col justify-center items-center">
+                    <h1 className="font-medium text-2xl mt-2">Project Scope</h1>
+                    {/* <DoughnutChart /> */}
+                    <div className="-mt-6 relative flex justify-center items-end">
+                        <DoughnutJS/>
+                        <div className="p-1 absolute flex flex-col justify-center items-center mb-24">
+                            <h1 className="text-[30px] font-medium">72h 30m</h1>
+                            <p className="text-[20px] text-[#504F54]">Total time</p>
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <div className="flex justify-between items-center px-4">

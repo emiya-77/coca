@@ -11,7 +11,7 @@ import TaskManagementSection from './components/TaskManagementSection/TaskManage
 function App() {
 
   return (
-    <div className='w-full'>
+    <div className='w-full text-black bg-white'>
       <Banner />
       <TaskManagementSection />
       <ChartSection />
